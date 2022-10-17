@@ -1,0 +1,30 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-wrangle-dev-03332-authRole",
+      "UnauthRoleArn": "arn:aws:iam::226091864355:role/amplify-wrangle-dev-03332-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::226091864355:role/amplify-wrangle-dev-03332-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-wrangle-dev-03332-deployment",
+      "UnauthRoleName": "amplify-wrangle-dev-03332-unauthRole",
+      "StackName": "amplify-wrangle-dev-03332",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:226091864355:stack/amplify-wrangle-dev-03332/a0856440-40dd-11ed-8d67-0281fabed2fe",
+      "AmplifyAppId": "dc4h4r4v9uftv",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-wrangle-dev-03332-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "auth": {
+        "wrangleef4c6405": {}
+      },
+      "function": {
+        "wrangleef4c6405CustomMessage": {
+          "REDIRECTURL": "http://localhost:3000",
+          "EMAILSUBJECT": "[DEV] Wrangle Email Confirmation",
+          "EMAILMESSAGE": "Please confirm your email",
+          "deploymentBucketName": "amplify-wrangle-dev-03332-deployment",
+          "s3Key": "amplify-builds/wrangleef4c6405CustomMessage-464e2f314157514f3267-build.zip"
+        }
+      }
+    }
+  }
+}
